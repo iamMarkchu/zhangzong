@@ -1,0 +1,17 @@
+<form action="{:U('Wenben/upload')}" method="POST" class="form-horizontal" enctype="multipart/form-data">
+		<div class="control-group">
+			<label class="control-label">上传文本</label>
+			<div class="controls">
+				<input type="file" name="file"/>
+				<span class="help-inline">需要上传的文本</span>
+			</div>
+		</div>
+		<div class="form-actions">
+
+			<button type="submit" class="btn blue"><i class="icon-ok"></i> 保存</button>
+
+			<a href="{:U('Index/index')}" class="btn">取消</a>
+
+		</div>
+
+	</form>
